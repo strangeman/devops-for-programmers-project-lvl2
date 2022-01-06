@@ -1,0 +1,6 @@
+redmine_host_port: "3000"
+redmine_version: "4.2.3"
+
+datadog_site: "datadoghq.eu"
+
+pip_install_packages: ["docker"]
