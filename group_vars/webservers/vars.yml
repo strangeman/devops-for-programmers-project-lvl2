@@ -6,4 +6,3 @@ redmine_db_port: 25060
 redmine_db_host: private-db-postgresql-ams3-39297-do-user-404056-0.b.db.ondigitalocean.com
 redmine_db_username: doadmin
 redmine_db_name: defaultdb
-
