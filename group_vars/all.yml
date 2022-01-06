@@ -1,6 +1,14 @@
 redmine_host_port: "3000"
 redmine_version: "4.2.3"
 
-datadog_site: "datadoghq.eu"
-
 pip_install_packages: ["docker"]
+
+datadog_site: "datadoghq.eu"
+datadog_checks:
+  http_check:
+    init_config:
+    instances:
+      - name: Check Redmine status
+        url: "http://localhost:{{ redmine_host_port }}"
+        timeout: 5
+        method: GET
