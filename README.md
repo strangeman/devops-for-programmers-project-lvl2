@@ -24,7 +24,7 @@ All settings configured via Ansible variables in `group_vars` folder.
 
 There are two sensitive varibles, encrypted via Ansible Vault:
 
-- `redmine_vault_db_password` - password for managed database
+- `vault_redmine_db_password` - password for managed database
 - `datadog_api_key` - API key for DataDog monitoring solution
 
 ## Application

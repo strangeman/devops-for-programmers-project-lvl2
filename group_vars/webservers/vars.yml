@@ -1,5 +1,5 @@
 # sensitive
-redmine_db_password: "{{ redmine_vault_db_password }}"
+redmine_db_password: "{{ vault_redmine_db_password }}"
 
 # non-sensitive
 redmine_db_port: 25060
